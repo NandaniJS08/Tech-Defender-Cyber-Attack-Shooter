@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tech Defender</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="gameContainer">
+    <div id="startScreen">
+      <h2>Tech Defender</h2>
+      <p>Defend your computer from falling virus characters by answering cybersecurity questions. Correct answers fire
+        an automatic shot. Each question has 30 seconds to answer.</p>
+      <button id="startButton">Start Game</button>
+    </div>
+    <div id="gameScreen">
+      <div id="gameStats">
+        <div>Score: <strong id="score">0</strong></div>
+        <div>Health: <strong id="health">100</strong></div>
+        <div>Level: <strong id="level">1</strong></div>
+        <div>Time: <strong id="timer">60</strong>s</div>
+      </div>
+      <div id="gameArea">
+        <svg id="gameCanvas" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid meet"></svg>
+      </div>
+      <div id="questionContainer">
+        <div id="questionText">Question will appear here</div>
+        <div id="answersContainer"></div>
+        <div id="timerBar">
+          <div id="timerProgress"></div>
+        </div>
+      </div>
+    </div>
+    <div id="scoreDisplay">
+      Score: 0 / 0
+    </div>
+    <div id="gameOverScreen">
+      <div id="gameOverContent">
+        <h2>Game Over</h2>
+        <p>Your Score: <span id="finalScore">0</span></p>
+        <button id="restartButton">Play Again</button>
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
+
+</body>
+
+</html>
