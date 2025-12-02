@@ -7,7 +7,7 @@ React fast, think sharp, and stop every intrusion before your system collapses. 
 
 ## 🚀 Live Demo
 Experience the battle in real-time:  
-👉 **[🎮 Play TechDefender Now](YOUR_LIVE_SITE_LINK_HERE)**  
+👉 **[🎮 Play TechDefender Now](https://nandanijs08.github.io/Tech-Defender-Cyber-Attack-Shooter/)**  
 *No downloads. No setup. Just play.*
 
 ---
